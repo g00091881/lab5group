@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        function getData()
+        {
+            $.get( "https://lab5group-frg5djbmaea0ftg2.uaenorth-01.azurewebsites.net/", function( data ) {
+                $( "#app" ).html( data );
+                console.log( "Load was performed." );
+            });
+        }
+    </script>
+</head>
+<body>
+<div id ="app" </div>
+<button onclick = "getData()">Roll it</button>
+</body>
+</html>
