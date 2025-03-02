@@ -1,0 +1,22 @@
+{
+  "name": "lab5group",
+  "version": "1.0.0",
+  "description": "app.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g00091881/lab5group.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g00091881/lab5group/issues"
+  },
+  "homepage": "https://github.com/g00091881/lab5group#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
