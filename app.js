@@ -9,7 +9,7 @@ var corsOptions = {
 
 
 app.get('/', cors(corsOptions), function (req, res, next) {
-    res.send('Hello World!')
+    res.send('' + (Math.floor(Math.random() * 6) + 1));
 })
 
 app.listen(port, () => {
